@@ -45,10 +45,10 @@ const App = () => {
                 <p className="paragraph">
                   "{advice}"
                 </p>
-                <img className="separator" src={separator} />
+                <img className="separator" src={separator} alt='separator'/>
                 <div className="icon-container">
                   <button onClick={fetchAdvice}>
-                    <img src={icon} />
+                    <img src={icon} alt='icon'/>
                   </button>
                 </div>
               </div>
