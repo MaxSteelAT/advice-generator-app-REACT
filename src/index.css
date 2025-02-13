@@ -5,9 +5,73 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(218, 23%, 16%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*
+color: hsl(193, 38%, 86%);
+color: hsl(150, 100%, 66%);
+
+color: hsl(217, 19%, 38%);
+color: hsl(217, 19%, 24%);
+color: hsl(218, 23%, 16%);*/
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.information-container {
+  width: 450px;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 20px;
+  color: aliceblue;
+  padding: 30px;
+  position: relative;
+}
+
+.header {
+  color: hsl(150, 100%, 66%);
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 23px;
+  line-height: 30px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.separator {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.icon-container {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border-style: none;
+  background-color: hsl(150, 100%, 66%);
+}
+
+button:hover {
+  box-shadow: 0 0 20px 1px hsl(150, 100%, 66%);
+  cursor: pointer;
 }
