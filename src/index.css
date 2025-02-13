@@ -10,13 +10,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /*
-color: hsl(193, 38%, 86%);
-color: hsl(150, 100%, 66%);
-
-color: hsl(217, 19%, 38%);
-color: hsl(217, 19%, 24%);
-color: hsl(218, 23%, 16%);*/
 }
 
 code {
@@ -74,4 +67,14 @@ button {
 button:hover {
   box-shadow: 0 0 20px 1px hsl(150, 100%, 66%);
   cursor: pointer;
+}
+
+@media (max-width: 600px){
+  .information-container {
+    width: 100%;
+  }
+
+  .App {
+    padding: 10px;
+  }
 }
